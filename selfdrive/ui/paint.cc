@@ -716,6 +716,7 @@ static int bb_ui_draw_measure(UIState *s, const char* bb_value, const char* bb_u
       nvgFillColor(s->vg, bb_uomColor);
       if (custom == 2) {
         nvgFontFace(s->vg, "KaiGenGothicKR-Medium");
+        nvgFontSize(s->vg, (int)(bb_uomFontSize*1.5));
         nvgText(s->vg, -15, 0, bb_uom, NULL);
       } else {
         nvgText(s->vg, 0, 0, bb_uom, NULL);
