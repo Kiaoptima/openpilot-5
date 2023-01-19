@@ -15,7 +15,7 @@ class CarControllerParams:
 
   def __init__(self, CP):
     self.STEER_MAX = int(Params().get("SteerMaxAdj", encoding="utf8"))  # default 384
-    self.STEER_DELTA_UP = int(Params().get("SteerDeltaUpAdj", encoding="utf8"))  # default 3
+    self.STEER_DELTA_UP = int(Params().get("SteerDeltaUpAdj", encoding="utf8"))  # default is 3
     self.STEER_DELTA_DOWN = int(Params().get("SteerDeltaDownAdj", encoding="utf8"))  # default 7
     self.STEER_DRIVER_ALLOWANCE = 50
     self.STEER_DRIVER_MULTIPLIER = 2
