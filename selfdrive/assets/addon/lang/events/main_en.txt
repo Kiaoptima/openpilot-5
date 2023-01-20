@@ -2,7 +2,7 @@ openpilot Unavailable
 TAKE CONTROL IMMEDIATELY
 openpilot will disengage
 TAKE CONTROL IMMEDIATELY
-Always keep hands on wheel and eyes on road
+Enjoy openpilot, have a safe drive!
 Speed Below
 Steer Unavailable Below
 Calibration in Progress
