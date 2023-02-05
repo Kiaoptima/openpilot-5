@@ -60,7 +60,7 @@ class CarInterface(CarInterfaceBase):
     ret.smoothSteer.driverAngleWait = float( Params().get("OpkrDriverAngleWait", encoding="utf8") )  #0.001
     #ret.steeringPressed
     #ret.maxSteeringAngleDeg = 90
-    ret.minSteerSpeed = 13.89 # m/s default 16.67
+    ret.minSteerSpeed = 0 # m/s default 16.67
 
     # Most Hyundai car ports are community features for now
     ret.pcmCruise = not ret.radarOffCan
