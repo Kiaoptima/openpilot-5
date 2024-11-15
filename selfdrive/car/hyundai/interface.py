@@ -52,7 +52,7 @@ class CarInterface(CarInterfaceBase):
     ret.openpilotLongitudinalControl = Params().get_bool("RadarDisable") or ret.sccBus == 2
     ret.safetyParam = 0
 
-    ret.minSteerSpeed = 16.67 # m/s
+    ret.minSteerSpeed = 0.0 # m/s
 
     # Most Hyundai car ports are community features for now
     ret.pcmCruise = not ret.radarOffCan
